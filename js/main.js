@@ -19,20 +19,20 @@ let startBtn = document.getElementById('start'),
     monthSavingsValue = document.querySelector('.monthsavings-value'),
     yearSavingsValue = document.querySelector('.yearsavings-value');
 
-let expensesValues = document.getElementsByClassName('expenses-item'); // поля с обязат. расходами
+let expensesItem = document.getElementsByClassName('expenses-item'); // поля с обязат. расходами
 let countBudgetBtn = document.getElementsByTagName('button')[2],
     optionalExpensesBtn = document.getElementsByTagName('button')[1],
     expensesBtn = document.getElementsByTagName('button')[0];
 
-let optionalExpenses = document.querySelectorAll('.optionalexpenses-item');
+let optionalExpensesItem = document.querySelectorAll('.optionalexpenses-item');
 
-let income = document.querySelector('.choose-income'),
-    checkBox = document.querySelector('.checksavings'),
+let incomeItem = document.querySelector('.choose-income'),
+    checkBox = document.querySelector('#savings'),
     sumValue = document.querySelector('.sum'),
-    persent = document.querySelector('.percent'),
-    year = document.querySelector('.year-value'),
-    month = document.querySelector('.month-value'),
-    day = document.querySelector('.day-value');
+    persentValue = document.querySelector('.percent'),
+    yearValue = document.querySelector('.year-value'),
+    monthValue = document.querySelector('.month-value'),
+    dayValue = document.querySelector('.day-value');
 
 
 function start() {
